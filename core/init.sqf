@@ -44,7 +44,7 @@ private _action = ["lock_druglab_door","Drogenlabor Tür abschließen","",_state
 [(typeOf player), 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToClass;
 
 /* Vehicle save option */
-private _condition = {(restart_in < 5) && ((vehicle player) isEqualTo player) && {cursorObject isKindOf "Car" || cursorObject isKindOf "Ship" || CursorObject isKindOf "Air"}};
+private _condition = {(restart_in < LIFE_SETTINGS(getNumber,"max_time_before_restart")) && ((vehicle player) isEqualTo player) && {cursorObject isKindOf "Car" || cursorObject isKindOf "Ship" || CursorObject isKindOf "Air"}};
 private _statement = {[cursorObject] spawn life_fnc_saveDuringRestart;};
 private _action = ["restart_save_vehicle","Fahrzeug speichern","",_statement,_condition] call ace_interact_menu_fnc_createAction;
 [(typeOf player), 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToClass;

@@ -1,7 +1,7 @@
 #include "..\..\script_macros.hpp"
 /*
     File: fn_druglabLock.sqf
-    Author: damian...
+    Author: damian
 
     Description:
     Script to lock the Druglab door.

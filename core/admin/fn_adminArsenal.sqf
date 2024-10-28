@@ -1,7 +1,7 @@
 #include "..\..\script_macros.hpp"
 /*
     File: fn_adminArsenal.sqf
-    Author: damian.
+    Author: damian
 
     Description: Opens the Arsenal
 */

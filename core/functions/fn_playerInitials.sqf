@@ -1,7 +1,7 @@
 #include "..\..\script_macros.hpp"
 /*
     File: fn_playerInitials.sqf
-    Author: damian.
+    Author: damian
 
     Description:
     Turns names into initials (Damian van Berg -> D. van Berg)

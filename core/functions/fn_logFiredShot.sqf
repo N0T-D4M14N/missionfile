@@ -1,7 +1,7 @@
 #include "..\..\script_macros.hpp"
 /*
     File: fn_logFiredShot.sqf
-    Author: damian...
+    Author: damian
 
     Description:
     Logs fired shots into the database

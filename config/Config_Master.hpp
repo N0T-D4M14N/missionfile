@@ -33,7 +33,9 @@ class Life_Settings {
     save_vehicle_fuel = true; //Save vehicle fuel level to the database (Impounded/Garaged).
     save_vehicle_damage = true; //Save vehicle damage to the database.
     save_vehicle_illegal = false; //This will allow cops to be advised when a vehicle, with illegal items in it, is impounded. This will also save illegal items as proof of crime, and needs "save_vehicle_virtualItems" set as true. Illegal items don't need to be set in save_vehicle_items[] for being saved, if it's enabled.
-    max_saved_vehicles = 4; //this defines how many vehicles can be saved during the restart, by a single player
+    max_time_before_restart = 4; //sets the how many minutes a player has before a restart, to save his vehicle/s
+    max_saved_vehicles = 5; //this defines how many vehicles can be saved during the restart, by a single player
+    max_time_restartspawn = 900; //sets the maximum time a player has before his car gets stored back into the garage after a restart
 
 /* System Settings */
     /* ATM & Federal Reserve System Configurations */

@@ -1,7 +1,7 @@
 #include "..\..\script_macros.hpp"
 /*
     File: fn_scrapyard.sqf
-    Author: damian.
+    Author: damian
 
     Description: Lets the player gather Items at the Scrapyard
 */

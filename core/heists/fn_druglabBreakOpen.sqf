@@ -1,7 +1,7 @@
 #include "..\..\script_macros.hpp"
 /*
     File: fn_druglabBreakOpen.sqf
-    Author: damian...
+    Author: damian
 
     Description:
     Script to break open the Druglab door.
