@@ -325,7 +325,6 @@ switch (_code) do {
                             _veh animateDoor ['DoorR_Front_Open',1];
                             _veh animateDoor ['DoorL_Back_Open',1];
                             _veh animateDoor ['DoorR_Back_Open ',1];
-                            diag_log "Case 1";
                         } else {
                             [_veh,0] remoteExecCall ["life_fnc_lockVehicle",_veh];
 
@@ -349,7 +348,6 @@ switch (_code) do {
                             _veh animateDoor ['DoorR_Front_Open',1];
                             _veh animateDoor ['DoorL_Back_Open',1];
                             _veh animateDoor ['DoorR_Back_Open ',1];
-                            diag_log "Case 2";
                         };
                         if (_restartSaved isEqualTo false) then {
                             systemChat localize "STR_MISC_VehUnlock";
@@ -379,7 +377,6 @@ switch (_code) do {
                             _veh animateDoor ['DoorR_Front_Open',0];
                             _veh animateDoor ['DoorL_Back_Open',0];
                             _veh animateDoor ['DoorR_Back_Open ',0];
-                            diag_log "Case 3";
                         } else {
                             [_veh,2] remoteExecCall ["life_fnc_lockVehicle",_veh];
 
@@ -403,7 +400,6 @@ switch (_code) do {
                             _veh animateDoor ['DoorR_Front_Open',0];
                             _veh animateDoor ['DoorL_Back_Open',0];
                             _veh animateDoor ['DoorR_Back_Open ',0];
-                            diag_log "Case 4";
                         };
                         if (_restartSaved isEqualTo false) then {
                             systemChat localize "STR_MISC_VehLock";

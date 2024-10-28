@@ -3,16 +3,12 @@
     Author: damian
     Description: Lets the player save his Vehicle before a restart
 */
-
-
 private _vehicle = nearestObjects[getPosATL player,["Car","Ship","Submarine","Air"],10] select 0;
 
 private _owner = (_vehicle getVariable ["dbinfo",[]]) select 0;
 private _pID = getPlayerUID player;
 
 if (_owner isNotEqualTo _pid) exitWith {hint "Das Fahrzeug gehört nicht dir";};
-
-//private _position = [];
 
 private _plate = (_vehicle getVariable ["dbinfo",[]]) select 1;
 private _damage = getAllHitPointsDamage _vehicle;
@@ -49,6 +45,4 @@ _iItems = [_iItems] call DB_fnc_mresArray;
     [_vehicleData] remoteExec ["TON_fnc_updateVehicle",2];
     _vehicle setVariable["restart_saved",false,true];
     _vehicle lockInventory false;
-
-    diag_log "[INFO] Fahrzeug wieder freigegeben";
 };
