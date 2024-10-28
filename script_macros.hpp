@@ -42,7 +42,6 @@
 #define BASE_CONFIG(CFG,CLASS) inheritsFrom(configFile >> CFG >> CLASS)
 #define LIFE_SETTINGS(TYPE,SETTING) TYPE(missionConfigFile >> "Life_Settings" >> SETTING)
 #define DRUGLAB_SETTINGS(TYPE,SETTING) TYPE(missionConfigFile >> "Druglab" >> SETTING)
-#define CRYPTO_SETTINGS(TYPE,SETTING) TYPE(missionConfigFile >> "Crypto" >> SETTING )
 
 //UI Macros
 #define LIFEdisplay (uiNamespace getVariable ["playerHUD",displayNull])
