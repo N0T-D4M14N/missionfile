@@ -157,37 +157,6 @@ class VirtualItems {
         //icon = "icons\ico_pickaxe.paa";
     };
 
-    //Crypto
-    class bitcoin {
-        variable = "bitcoin";
-        displayName = "Bitcoin";
-        weight = 2;
-        illegal = false;
-        edible = -1;
-        drinkable = -1;
-        //icon = "icons\rl_bitcoin.paa";
-    };
-
-    class ethereum {
-        variable = "ethereum";
-        displayName = "Ethereum";
-        weight = 2;
-        illegal = false;
-        edible = -1;
-        drinkable = -1;
-        //icon = "icons\rl_ethereum.paa";
-    };
-
-    class panthorCoin {
-        variable = "panthorCoin";
-        displayName = "Panthor Coin";
-        weight = 2;
-        illegal = false;
-        edible = -1;
-        drinkable = -1;
-        //icon = "icons\rl_coin.paa";
-    };
-
     //Misc
     class pickaxe {
         variable = "pickaxe";
