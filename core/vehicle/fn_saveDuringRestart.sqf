@@ -43,8 +43,6 @@ _iItems = [_iItems] call DB_fnc_mresArray;
     _vehicle lockInventory true;
     _vehicle lock true;
     
-    diag_log _position;
-    diag_log "[INFO] Vehicle saved";
  } else {
     private _reason = 2;
     private _vehicleData = [_pID, _plate, _vItems, _iItems, _position, _damage, _fuel, _rotation, _reason];
